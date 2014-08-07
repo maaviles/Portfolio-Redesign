@@ -3,7 +3,7 @@
 /*********************************************************************************/
 
 	body,input,textarea,select {
-		font-size: 13pt;
+		font-size: 14pt;
 	}
 
 	.container > .container {
@@ -19,11 +19,11 @@
 			}
 			
 				.main.style2 .content {
-					width: 60%;
+					width: 50%;
 				}
 			
 					.main.style2.right .content {
-						left: 40%;
+						left: 50%;
 					}
 
 				.main.style2.inactive {
@@ -33,7 +33,7 @@
 					}
 
 						.main.style2.inactive.left .content {
-							left: -60%;
+							left: -70%;
 						}
 						
 /*********************************************************************************/
