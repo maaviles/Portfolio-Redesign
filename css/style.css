@@ -471,6 +471,12 @@
 
 	/* Box */
 
+		.introBox {
+			background-color:rgba(0, 0, 0, 0.4);
+			color: #fff;
+			padding: .5em;
+		}
+
 		.box {
 			background: #fff;
 			color: #39454b;
@@ -586,7 +592,7 @@
 					}
 
 				.main.style3.primary {
-					background: #fff;
+					background: #f5f6f7;
 				}
 			
 				.main.style3.secondary {
@@ -787,6 +793,29 @@
 				#work .row.images.inactive .image.from-bottom {
 					top: 7em;
 				}
+
+	.pdf {
+		background-color: #98c593;
+		border: 0;
+		border-radius: 3.5em;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+	}
+	.pdf:hover {
+		background-color:#a8d5a3;
+	}
+	.pdf:active {
+		position:relative;
+		top:1px;
+	}
 			
 /*********************************************************************************/
 /* Contact                                                                       */
