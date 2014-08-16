@@ -471,6 +471,38 @@
 					background-image: url('images/arrow.svg');
 				}
 
+	/* Image Text */
+
+	span.text-content {
+  	background: rgba(0,0,0,0.5);
+  	color: white;
+  	cursor: pointer;
+  	display: table;
+  	height: 12em;
+  	left: .9em;
+  	position: absolute;
+  	top: -5em;
+  	width: 19em;
+  	padding-top: 3em;
+  	margin-top: 6em;
+  	border-radius: 1em 1em 1em 1em;
+  	opacity: 0;
+  	-webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    transition: all .5s linear;
+	}
+ 
+	span.text-content div {
+	  display: block;
+	  text-align: center;
+	  vertical-align: middle;
+	}
+
+
+	a:hover span.text-content {
+  	opacity: 1;
+	}
+
 	/* Box */
 
 		.introBox {
@@ -583,7 +615,7 @@
 		
 			.main.style3 {
 				text-align: center;
-				padding: 6em 0 6em 0;
+				padding: 3em 0 6em 0;
 			}
 
 				.main.style3 .content {
@@ -804,13 +836,13 @@
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
-		line-height: 3.5em;
 		outline: 0;
-		padding: 0 2em 0 2em;
+		padding: 1em 2em 0 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
 	}
+
 	.pdf:hover {
 		background-color:#a8d5a3;
 	}
@@ -818,7 +850,30 @@
 		position:relative;
 		top:1px;
 	}
-			
+
+	.star {
+		background-color: #98c593;
+		border: 0;
+		border-radius: 3.5em;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		height: 2em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		margin-bottom: 1em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.star:hover {
+		background-color:#a8d5a3;
+	}
+	.star:active {
+		position:relative;
+		top:1px;
+	}
 /*********************************************************************************/
 /* Contact                                                                       */
 /*********************************************************************************/
