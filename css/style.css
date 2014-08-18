@@ -476,7 +476,7 @@
 	span.text-content {
   	background: rgba(0,0,0,0.5);
   	color: white;
-  	cursor: pointer;
+  	cursor: none;
   	display: table;
   	height: 12em;
   	left: .9em;
@@ -626,7 +626,7 @@
 					}
 
 				.main.style3.primary {
-					background: #f5f6f7;
+					background: #E6E6E6;
 				}
 			
 				.main.style3.secondary {
@@ -831,7 +831,7 @@
 	.pdf {
 		background-color: #98c593;
 		border: 0;
-		border-radius: 3.5em;
+		border-radius: 2em;
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
@@ -854,7 +854,7 @@
 	.star {
 		background-color: #98c593;
 		border: 0;
-		border-radius: 3.5em;
+		border-radius: .5em;
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
