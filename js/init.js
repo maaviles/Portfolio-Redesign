@@ -101,7 +101,7 @@
 				$(':last-child').addClass('last-child');
 
 		// Gallery.
-			$('.gallery').poptrox({
+			/*$('.gallery').poptrox({
 				baseZIndex: 10001,
 				useBodyOverflow: false,
 				usePopupEasyClose: false,
@@ -113,7 +113,7 @@
 				windowMargin: (skel.isActive('mobile') ? 5 : 50),
 				usePopupNav: true
 			});
-
+*/
 		// Section transitions.
 
 			if (settings.sectionTransitions) {
@@ -297,3 +297,27 @@
 	});
 	
 })(jQuery);
+
+
+/* Word Rotate */
+
+(function(){
+    var words = [
+        'Logical.',
+        'Passionate.',
+        'Adventurous.',
+        'Gamer.',
+        'Creative.',
+        'Opinionated.',
+        'Positive.',
+        'Level 99 Necromancer...',
+        'lol, just kidding.',
+        'Nerdy.'
+        ], i = 0;
+    setInterval(function(){
+        $('#word-rotate').fadeOut(function(){
+            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+        });
+    }, 3500);
+
+})();
