@@ -879,8 +879,17 @@
 /*********************************************************************************/
 
 	#contact {
-		padding-bottom: 7em;
+		padding-bottom: 8em;
 		overflow: hidden;
+		background: url('images/overlay.png'), url('../images/contact.JPG');
+		background-position: center;
+	}
+
+	#contact header {
+		background-color:rgba(0, 0, 0, 0.4);
+		color: #fff;
+		padding: .5em;
+		margin: 2em 15em 2em 15em;
 	}
 	
 		#contact .box {
@@ -921,6 +930,7 @@
 		line-height: 5em;
 		margin: 0;
 		background: #39454b;
+		background-image: 
 		color: #999;
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
@@ -971,6 +981,7 @@
 /* Poptrox                                                                       */
 /*********************************************************************************/
 
+/*
 	.poptrox-popup {
 		background: #fff;
 		-moz-box-sizing: content-box;
@@ -1113,7 +1124,9 @@
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
 			}
-			
+		
+*/
+
 /*********************************************************************************/
 /* Touch Mode                                                                    */
 /*********************************************************************************/
